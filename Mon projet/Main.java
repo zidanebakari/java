@@ -1,3 +1,4 @@
+package Mon projet;
 import java.util.Scanner;
 
 public class Main {
@@ -43,5 +44,5 @@ public class Main {
         } while (choix != 4);
 
         scanner.close();
-    }
+    }
 }
