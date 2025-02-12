@@ -1,4 +1,4 @@
-package Calculatrice.AVION.Mon projet;
+package Mon projet;
 
 public class GestionEtudiants {
     
