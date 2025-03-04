@@ -2,9 +2,7 @@ package com.monprojet;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 public class Connexion {
     String url = "jdbc:mysql://localhost:3306/mabase";
@@ -17,7 +15,6 @@ public class Connexion {
             // Établir la connexion
             this.connexion = DriverManager.getConnection(url, utilisateur, motDePasse);
             System.out.println("Connexion réussie !");
-
         } catch (SQLException e) {
             System.out.println("Erreur de connexion : " + e.getMessage());
         }
